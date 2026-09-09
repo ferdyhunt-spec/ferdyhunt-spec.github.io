@@ -1,136 +1,108 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Grim Division — offensive security & CTF team.">
-  <title>GRIM DIVISION // CLASSIFIED</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GRIM DIVISION //</title>
+<meta name="description" content="Grim Division — CTF Team.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="scanlines"></div>
-  <header class="nav">
-    <a class="brand" href="#top"><span>GD</span> GRIM DIVISION</a>
-    <nav>
-      <a href="#about">ABOUT</a>
-      <a href="#ops">OPERATIONS</a>
-      <a href="#roster">ROSTER</a>
-      <a href="#contact">CONTACT</a>
-    </nav>
-    <button class="menu" aria-label="Open menu">☰</button>
-  </header>
+<div class="noise"></div>
+<div class="topline"></div>
 
-  <main id="top">
-    <section class="hero">
-      <div class="hero-grid"></div>
-      <div class="hero-copy">
-        <p class="eyebrow">/// SECURE CHANNEL // CLASSIFIED</p>
-        <h1>GRIM<br><em>DIVISION</em></h1>
-        <p class="tagline">OFFENSIVE SECURITY // CTF // OPSEC</p>
-        <p class="intro">A quiet team. A loud impact.<br>We hunt vulnerabilities, solve problems, and leave no unnecessary trace.</p>
-        <div class="hero-actions">
-          <a class="btn primary" href="#ops">VIEW OPERATIONS <span>→</span></a>
-          <a class="btn ghost" href="#roster">MEET THE UNIT</a>
-        </div>
-      </div>
-      <div class="stamp">CLASSIFIED<br><small>GD // 2026</small></div>
-      <div class="coordinates">06°12' // 106°49'<br><span>INDONESIA</span></div>
-    </section>
+<header>
+  <a class="brand" href="#home"><span class="sigil">X</span><span>GRIM DIVISION<small>Grim Reaper Has Many Names, Eh?</small></span></a>
+  <nav>
+    <a href="#about">ABOUT</a><a href="#operations">OPERATIONS</a><a href="#achievements">ACHIEVEMENTS</a><a href="#agents">MEMBERS</a><a href="#contact">CONTACT</a>
+  </nav>
+  <div class="channel">// SECURE CHANNEL <i></i></div>
+</header>
 
-    <section id="about" class="section about">
-      <div class="section-head">
-        <span>01</span>
-        <h2>THE DIVISION</h2>
-      </div>
-      <div class="about-grid">
-        <p class="lead">Grim Division is a CTF crew focused on <b>offensive security</b>, adversarial thinking, and competition.</p>
-        <div class="terminal">
-          <div class="terminal-bar"><span></span><span></span><span></span><label>grim@division:~</label></div>
-          <pre><code>$ whoami
+<main>
+<section id="home" class="hero">
+  <div class="hero-bg"></div><div class="reticle"></div>
+  <div class="hero-copy">
+    <p class="eyebrow">/// DIRECTORATE FILE GD-001 // EYES ONLY</p>
+    <p class="micro">INFORMATION IS POWER.<br>CONTROL IS FREEDOM.</p>
+    <h1>GRIM<br><span>DIVISION</span></h1>
+    <p class="sub">CTF TEAM <b>/</b> INTERNATIONAL <b>/</b> COMMUNITY</p>
+    <p class="desc">Just a small division CTF Team.</p>
+    <div class="buttons"><a class="btn" href="#operations">ENTER OPERATIONS →</a><a class="btn dim" href="#agents">OPEN MEMBERS</a></div>
+  </div>
+  <div class="classified">CLASSIFIED</div>
+  <div class="radar">
+    <div class="radar-head">LIVE THREAT MONITOR <span>ONLINE</span></div>
+    <div class="radar-disk"><div class="sweep"></div><b class="blip b1"></b><b class="blip b2"></b><b class="blip b3"></b><div class="cross"></div></div>
+    <div class="radar-stats"><span>TARGETS <b>4</b></span><span>OPERATIONS <b>03</b></span><span>THREAT <b class="green">LOW</b></span></div>
+  </div>
+  <div class="coords">06°12'00"S &nbsp; 106°49'00"E<br><b>INTERNATIONAL // ACTIVE CELL</b></div>
+</section>
+
+<section id="about" class="section">
+  <div class="section-title"><small>01</small><h2>DIRECTORATE PROFILE</h2></div>
+  <div class="two">
+    <div><p class="big">GRIM DIVISION IS A <em>CYBER SECURITY ENTHUSIAST</em> DISGUISED AS A CTF TEAM.</p><p class="muted">Our work revolves around learning things at offensive security, defensive security, research, competition, forensic, etc. Every challenge is treated as a target: enumerate, understand, learn, adapt.</p><blockquote>“Stop talking<br> Learn everything”</blockquote></div>
+    <div class="terminal"><div class="bar"><span></span><span></span><span></span><label>grim@division:~</label></div><pre>$ whoami
 grim-division
 
 $ mission --status
-ACTIVE
+<span>ACTIVE</span>
 
 $ objective
-FIND / EXPLOIT / ADAPT
+LEARN / NETWORKING / ADAPT
 
 $ trace --mode
 [ REDACTED ]
 
-$ status
-<span>OPERATIONAL</span></code></pre>
-        </div>
-      </div>
-    </section>
+$ output
+"Better attackers.
+ Stronger defenders."</pre></div>
+  </div>
+</section>
 
-    <section id="ops" class="section operations">
-      <div class="section-head">
-        <span>02</span>
-        <h2>OPERATIONS</h2>
-      </div>
-      <div class="cards">
-        <article class="card">
-          <span class="card-no">OP-01</span>
-          <h3>CTF OPERATIONS</h3>
-          <p>Web, pwn, reverse engineering, crypto, forensics, and whatever the challenge throws at us.</p>
-          <span class="status">ACTIVE</span>
-        </article>
-        <article class="card">
-          <span class="card-no">OP-02</span>
-          <h3>RED TEAM</h3>
-          <p>Think like an adversary. Enumerate attack surfaces, chain weaknesses, and validate impact.</p>
-          <span class="status">ACTIVE</span>
-        </article>
-        <article class="card">
-          <span class="card-no">OP-03</span>
-          <h3>OPSEC</h3>
-          <p>Minimal noise. Clean execution. Operational discipline from recon to report.</p>
-          <span class="status">ACTIVE</span>
-        </article>
-      </div>
-    </section>
+<section id="operations" class="section">
+  <div class="section-title"><small>02</small><h2>ONGOING OPERATION</h2></div>
+  <div class="ops">
+    <article><span>OP-003</span><h3>DINGO BYTE</h3><p>OPEN OPERATION REMAIN CLASSIFIED.</p><b class="tag">UPCOMING</b></article>
+    <article><span>OP-002</span><h3>FROSTBITE</h3><p>Jeopardy Style CTF.</p><b class="tag red">CLOSED</b></article>
+    <article><span>OP-001</span><h3>NIGHTSHADE</h3><p>Jeopardy Style CTF.</p><b class="tag red">CLOSED</b></article>
+  </div>
+</section>
 
-    <section id="roster" class="section roster">
-      <div class="section-head">
-        <span>03</span>
-        <h2>THE ROSTER</h2>
-      </div>
-      <div class="roster-grid">
-        <div class="agent"><span class="avatar">01</span><div><b>PARANOIDBANDIT</b><small>OFFENSIVE SECURITY</small></div></div>
-        <div class="agent"><span class="avatar">02</span><div><b>0xJC</b><small>SECURITY RESEARCH</small></div></div>
-        <div class="agent"><span class="avatar">03</span><div><b>PANTAKE</b><small>CTF OPERATIONS</small></div></div>
-        <div class="agent"><span class="avatar">04</span><div><b>CLASSIFIED</b><small>REDACTED</small></div></div>
-      </div>
-    </section>
+<section id="achievements" class="section">
+  <div class="section-title"><small>03</small><h2>CTF ACHIEVEMENTS</h2></div>
+  <div class="achievement-grid">
+    <div class="achievement"><div class="medal">01</div><div><h3>THRYVE CTF 2026</h3><p>Jordan Qualifier</p><strong>RANKED 37 / 1200+ TEAMS | RANKED 14 / 900+ TEAMS GLOBAL CHALLENGER CATEGORY</strong></div><time>14 AUG 2026</time></div>
+    <div class="achievement"><div class="medal">02</div><div><h3>NNS CTF 2026</h3><p>NORWAY</p><strong>RANKED 58 / 888 TEAMS</strong></div><time>04 SEP 2026</time></div>
+    <div class="achievement"><div class="medal">03</div><div><h3>K17 CTF 2026</h3><p>AUSTRALIA</p><strong>PARTICIPATED</strong></div><time>2026</time></div>
+  </div>
+  <div class="numbers"><div><b>03+</b><span>EVENTS</span></div><div><b>02</b><span>TOP 100</span></div><div><b>01</b><span>TOP 25</span></div></div>
+</section>
 
-    <section class="section quote">
-      <div class="crosshair">+</div>
-      <blockquote>“THE BEST TRACE<br>IS THE ONE YOU NEVER LEAVE.”</blockquote>
-      <p>// GRIM DIVISION FIELD MANUAL</p>
-    </section>
+<section id="agents" class="section">
+<section class="section roster">
+  <div class="section-title"><small>04</small><h2>FIELD OPERATIVES</h2></div>
+  <div class="agents">
+    <div><span>01</span><b>PARANOIDBANDIT</b><small>OFFENSIVE SECURITY</small></div>
+    <div><span>02</span><b>0xJC</b><small>SECURITY RESEARCH</small></div>
+    <div><span>03</span><b>PANTAKE</b><small>CTF OPERATIONS</small></div>
+    <div><span>04</span><b>PHAR7</b><small>REDACTED</small></div>
+    <div><span>05</span><b>MSH4N</b><small>DEFENSIVE SECURITY</small></div>
+    <div><span>06</span><b>KISHMISH</b><small>OSINT</small></div>
+    <div><span>07</span><b>SHADOWROOT</b><small>OSINT</small></div>
+    <div><span>08</span><b>BUN4T3DY</b><small>WEB EXPLOITATION</small></div>
+  </div>
+</section>
 
-    <section id="contact" class="section contact">
-      <div>
-        <p class="eyebrow">/// SECURE CHANNEL</p>
-        <h2>OPEN A CHANNEL.</h2>
-      </div>
-      <div class="contact-links">
-        <a href="https://github.com/" target="_blank" rel="noreferrer">GITHUB ↗</a>
-        <a href="https://discord.com/" target="_blank" rel="noreferrer">DISCORD ↗</a>
-        <a href="mailto:contact@grimdivision.example">EMAIL ↗</a>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <span>GRIM DIVISION © 2026</span>
-    <span>NO SIGNAL // NO NOISE</span>
-  </footer>
-
-  <script src="script.js"></script>
-</body>
-</html>
+<section id="contact" class="section contact">
+  <div><p class="eyebrow">/// SECURE CHANNEL</p><h2>OPEN A<br>CHANNEL.</h2></div>
+  <div class="links"><a href="https://github.com/" target="_blank">GITHUB ↗</a><a href="https://discord.com/" target="_blank">DISCORD ↗</a><a href="https://ctftime.org/team/444690">CTF Time ↗</a></div>
+</section>
+</main>
+<footer><span>© 2026 GRIM DIVISION // ALL RIGHTS RESERVED</span><span>LEARN / NETWORKING / ADAPT</span><span>NO SIGNAL // NO NOISE</span></footer>
+<script src="script.js"></script>
+</body></html>
