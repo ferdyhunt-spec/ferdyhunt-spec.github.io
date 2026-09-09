@@ -1,3 +1,4 @@
-const menu=document.querySelector(".menu"),nav=document.querySelector("nav");
-menu?.addEventListener("click",()=>{nav.style.display=nav.style.display==="flex"?"none":"flex";nav.style.position="absolute";nav.style.right="20px";nav.style.top="65px";nav.style.flexDirection="column";nav.style.padding="18px";nav.style.background="#0b0e0b";nav.style.border="1px solid #252a25";nav.style.zIndex="20"});
-document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener("click",()=>{if(innerWidth<761)nav.style.display="none"}));
+document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener("click",()=>{}));
+const radar=document.querySelector(".radar-disk");
+document.addEventListener("mousemove",e=>{if(!radar)return;const r=radar.getBoundingClientRect();const x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;radar.style.transform=`perspective(500px) rotateX(${y*-2}deg) rotateY(${x*2}deg)`});
+window.addEventListener("mouseleave",()=>{if(radar)radar.style.transform=""});
